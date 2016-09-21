@@ -48,6 +48,8 @@ ____________________________________
 - [SoundHack](http://www.soundhack.com) - Tom Erbe's audio processing toolkits; some free, some paid VST/AUs
 - [Composer's Desktop Project](http://www.composersdesktop.com) - the SOUND LOOM: a terrifyingly powerful (built in CSound) system for audio manipulation from EAC-legend [Trevor Wishart](http://www.trevorwishart.co.uk) and others.
 
+***
+
 ### RESOURCES FOR MAX
 http://cycling74.com
 
@@ -91,7 +93,8 @@ http://processing.org
 - [Processing Tutorials](https://processing.org/tutorials/)
 - [Processing.js](http://processingjs.org)
     - run Processing sketches (and check out other for inspiration) online!
-____________________________________
+
+***
 
 ## WEBSITES
 - [CODE ACADEMY](https://www.codecademy.com) - excellent, free online courses teaching basics of various programming languages and techniques
@@ -106,6 +109,8 @@ ____________________________________
 - [MUFFWIGGLER](https://www.muffwiggler.com/forum/index.php) - synthesiser community forum
 - [UBUWEB](http://www.ubuweb.com)
 - [TOPLAP](http://toplap.org) - home of live-coding
+
+***
 
 ## BOOKS
 ##### Electronic/Computer Music History and Culture
@@ -137,12 +142,16 @@ ____________________________________
 - Generative Art ~ Matt Pearson
 - Nature of Code ~ Dan Shiffman (also freely available [online](http://natureofcode.com))
 
+***
+
 ## JOURNALS
 - [COMPUTER MUSIC JOURNAL](http://www.mitpressjournals.org/cmj)
 - [ORGANISED SOUND](https://www.cambridge.org/core/journals/organised-sound)
 - [TEMPO](https://www.cambridge.org/core/journals/tempo)
 - [CONTEMPORARY MUSIC REVIEW](http://www.tandfonline.com/toc/gcmr20/current)
 - [AUDIO ENGINEERING SOCIETY](http://www.aes.org)
+
+***
 
 ## INTERNATIONAL CONFERENCES
 - [New Interfaces for Musical Expression (NIME)](http://www.nime.org/archives/)
