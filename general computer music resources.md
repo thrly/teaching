@@ -70,6 +70,7 @@ http://supercollider.github.io
 ) ~ Scott Wilson and James Harkins
 - [Nick Collins’ SuperCollider Tutorial](http://composerprogrammer.com/teaching/supercollider/sctutorial/tutorial.html
 )
+- [Gentle Guide to SuperCollider](https://ccrma.stanford.edu/~ruviaro/texts/A_Gentle_Introduction_To_SuperCollider.pdf) ~ Bruno Ruviaro
 
 ###     RESOURCES FOR PURE DATA
 https://puredata.info
