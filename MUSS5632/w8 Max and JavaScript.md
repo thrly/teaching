@@ -24,7 +24,7 @@ Working with JavaScript in Max... 💻 🎛 🎧
 ***
 ## Background
 Today we're looking at a programming language called **JavaScript**. You've probably heard of it, even if you've never used it.
-While it's typically assosiated with web design, Max allows us to edit and run JavaScript code inside our patchers. With JavaScript, *we can approach some things slightly differently than we normally would in Max*.
+While it's typically associated with web design, Max allows us to edit and run JavaScript code inside our patches. With JavaScript, *we can approach some things slightly differently than we normally would in Max*.
 
 Don't worry if you've never done any programming before, we'll look at some of the fundamentals as we go along...
 If you *have* done some programming in JavaScript (or any other text-based language) try to think about how you could develop some of these skills within the context of Max to produce some more advanced techniques!
@@ -32,20 +32,19 @@ If you *have* done some programming in JavaScript (or any other text-based langu
 Even if you don't use JS in your Max projects, this will serve as a good introduction to thinking about text-based programming when working with music, and how it can alter your perspective on making electronic and computer music.
 ***
 ## Basics
-JavaScript is a lightweight, interpreted object-oriented programming language that was originally developed to facilitate embeded software in websites. By incorporating JavaScript into our Max patches, we can do a lot of powerful and exciting new things:
+JavaScript is a lightweight, interpreted object-oriented programming language that was originally developed to facilitate embedded software in websites. By incorporating JavaScript into our Max patches, we can do a lot of powerful and exciting new things:
 
-+ design proceedural operations that would be difficult or even impossible in normal Max patches. (for instance, operations that require recursion, or respond to messages with an unknown number of arguments)
++ design procedural operations that would be difficult or even impossible in normal Max patches. (for instance, operations that require recursion, or respond to messages with an unknown number of arguments)
 + manipulate the user interface of Max and draw things!
 + create objects that respond to customised messages
 + schedule timed events in response to messages
-+ manage global variables for use between multiple js objects
++ manage global variables for use between multiple `[js]` objects
 + interface with Max's own scripting architecture
 + access the file system of your computer to look for files
 
 One particularly useful thing is using JS to create and/or parse large data sets so they are easier for Max to read. We'll look at a simple example of this towards the end of the session.
 
-In Max, we have two different "flavours" of JavaScript that can run *within* Max: the `[js]` object and the `[jsui]` object. Both objects run JavaScript (JS) version 1.8.5
-
+In Max, we have two different "flavours" of JavaScript that can run *within* Max: the `[js]` object and the `[jsui]` object. Both objects run JavaScript (JS) version 1.8.5.
 **NOTE:** The JavaScript language used by the `[js]` and `[jsui]` Max objects does not include web browser-specific functions and properties
 
 ##### The `[js]` object
@@ -119,7 +118,7 @@ When we start to nest blocks of code, and work with objects, we'll start to inde
 ***
 
 ### Inlets and Outlets
-In our script, when we initalise our global code, we can set the number of inlets and outlets of our `[js]` object in Max. Later, we can specify which inlet or outlet we want to receive or send our data...
+So we need to give our code some inlets and outlets. In our script, when we initialise our global code, we can set the number of inlets and outlets of our `[js]` object in Max. Later, we can specify which inlet or outlet we want to receive or send our data...
 
 ```javascript
 // inlets and outlets
@@ -150,7 +149,6 @@ There are others as listed in Max's JavaScript reference documentation. Some oth
 - `return x` will simply return a value (x) when the function it is inside gets called.
 
 ### Define Your Own Function
-
 Other than those special named functions, you can create your own function to do any number of things in JavaScript...
 
 ```javascript
@@ -167,6 +165,7 @@ function bang(){
 ```
 If you haven't already, add the code above to your own JS file in Max, and make sure your file is saved and the file name is defined in the `[js]` object... (`[js javascript-test.js]`).
 
+**Take a minute or two to get it working and printing to the Max console when you send a bang to the '[js]' object.**
 ***
 
 ## Conditions, Loops and Recursion in JavaScript
@@ -252,7 +251,7 @@ Let's try interacting with our loop and JS file a little more and developing thi
 
 ##### CHALLENGE:
 >CAN YOU FIGURE OUT HOW TO CHANGE THE NUMBER OF LOOP REPETITIONS FROM MAX?
->Tip: you'll want to add an extra inlet and pass an integer number in from Max...
+>Tip: you'll want to add an extra inlet and pass an integer number in from Max... remember that JS has a special function for reacting to a received number!
 
 ***
 ***
@@ -351,6 +350,7 @@ function bang(){
 }
 ```
 
+When it works, try shifting the value of 'n' and see how your data set changes! Can you *sonify* this somehow?
 ***
 ## Advanced JavaScript in Max
 So, WHY use text-based languages?
@@ -363,11 +363,14 @@ So, WHY use text-based languages?
 		+ How could we implement this in music?
 - Scheduling events.
 
+![BOIDS](figs/JS-Max-boids.gif)
+
 ***
 ## For next session:
 - Explore some of the ‘[JavaScript for Max](https://docs.cycling74.com/max7/vignettes/JavaScriptinmax)’ example patches and be sure to read the reference page guides!
 - Take a look at Max’s ‘GEN’ language with the ‘[Gen Overview](https://docs.cycling74.com/max7/vignettes/gen_overview)’ guide in the reference pages.
 
+If you need more help with JavaScript (or many other programing languages), check out [CodeAcademy](https://www.codecademy.com)
 
 Next week we enter the wonderful world of [SuperCollider](http://supercollider.github.io)...
 `“Hello, World!”.postln;`
