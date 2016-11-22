@@ -296,6 +296,20 @@ Out.ar(0, finaloutput) //finaloutput is the final result UGen you want to hear
 
 `Synth(\synthdefname, [\input1, inputval1]); //inputval1 is the constant starting value for argument input1`
 
+Be sure to check the Document Browser window for a list of UGens to play with.
+**ALWAYS READ THE DOCUMENTATION AS IT PROVIDES EXAMPLES OF HOW TO USE THE UGEN**
+Some UGens you might like to explore to start with:
+
+- SinOsc: a simple sine wave
+- LFTri: a triagle wave
+- RLPF: resonant low-pass filter
+- MoogFF: a Moog inspired VCF (filter)
+- Line: line generator
+- LFNoise0 & LFNoise1
+- Decay
+- Impulse
+- Dust: random impulses
+- Env: envelope generator (IMPORTANT: read documentation)
 
 #### Plotting & Scoping sound
 Sometimes it can be useful to **see** the waveforms we're creating. [SuperCollider gives us a couple of options](http://supercollider.svn.sourceforge.net/viewvc/supercollider/trunk/common/build/Help/Tutorials/Getting-Started/Scoping%20and%20Plotting.html).
