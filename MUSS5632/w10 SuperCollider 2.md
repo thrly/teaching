@@ -216,6 +216,9 @@ If you'd like to explore live-coding a bit more in SuperCollider, the [Just In T
 
 One of JITlib's incredibly useful classes is the [Pdef](http://doc.sccode.org/Classes/Pdef.html) that allows us to store patterns globally and modify them on-the-fly.
 
+### MIDI Output
+Perhaps you want to use SC's patterns to control your favourite DAW (Ableton, Logic, etc) or synth/sampler. Explore the [MIDIOut](http://supercollider.svn.sourceforge.net/viewvc/supercollider/trunk/common/build/Help/Streams-Patterns-Events/A%20Practical%20Guide/PG_Cookbook04_Sending_MIDI.html) class.
+>**Exercise: **Try and output your MIDI data into a basic Max patch!
 
 ## Laurie Spiegel & Pattern Manipulation
 In her 1981 article '[Manipulations of Musical Patterns](http://retiary.org/ls/writings/musical_manip.html)', computer music pioneer Laurie Spiegel identifies the role of various pattern algorithms in her (and much other) music:
