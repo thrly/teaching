@@ -1,10 +1,10 @@
-###### MUSS3640 Music Technology
+###### MUSS3640 Music Technology / MUSS5632M Electronic Computer Music
 # Programming (Interactive) Music
-18 October 2016 || 2 hrs
+last edited: 2 October 2017
 [o.thurley@leeds.ac.uk](mailto:o.thurley@leeds.ac.uk)
 ### Summary:
-Using computer programming languages to create interactive music systems, and some reasons why you might want to...💻🚀✨🙉
-
+Using computer programming languages to create interactive music systems, and some reasons why you might want to...
+💻🚀✨🙉
 ***
 
 ## Table of Contents
@@ -37,12 +37,11 @@ For Joshua Noble, the feedback loop is the
 > process of an entity communicating with itself while checking with either an internal or external regulatory system'
 ~ Joshua Noble, *Programming Interactivity*, 3
 
-
 Sergi Jordà holds that
 >'Interaction' involves the existence of a mutual or reciprocal action or influence between two or more systems.
 ~ Sergi Jordà, 'Interactivity and live computer music' in *The Cambridge Companion to Electronic Music*, eds. Collins & d'Escrivan, 90
 
-##### Computer Music is still Music
+##### Computer Music is still _Music_
 >'Musicians interact with their instrument, with other musicians, with dancers or with the audience...'
 ~ Jordà, ibid.
 
@@ -66,7 +65,7 @@ In 1985, composer and programmer [Laurie Spiegel](https://unseenworlds.bandcamp.
 The software generates music by manipulating its own subroutines based on the simple *interaction* of the user. *Music Mouse* isn't the 'birth' of interactive music (not by a long way), but it is a nice example of how we can think about programming interactivity in music.
 
 ***
-## Your friendly neighbourhood Help-File
+## Read the ß∆$†∆®& manual
 Before we start, it doesn't matter if you don't have much programming experience, or if you haven't used (or heard of) the technologies we discuss today. There is a solution...
 
 **The HELP FILE** 📋
@@ -77,7 +76,7 @@ All of the following technologies come with excellent documentation, support net
 
 ***
 # 1. What can Max do?
-Max (fka 'Max/MSP + Jitter')is a ubiquitous, patchable 'visual' programming language. It can do more things than is practical to mention here, but some of the things it does BEST are:
+[Max](https://cycling74.com) (fka 'Max/MSP + Jitter')is a ubiquitous, patchable 'visual' programming language. It can do more things than is practical to mention here, but some of the things it does BEST are:
 - MIDI data (Max)
 - Audio (MSP)
 - Visuals (Jitter, OpenGL, etc.)
@@ -88,7 +87,7 @@ Max's visual architecture allows a very different workflow and method of thinkin
 
 Max has _**truely excellent tutorials, help and support systems**_ which make it a pretty friendly tool to use.
 
-#### Some cool projects using Max
+#### Some interesting musical projects using Max
 
 [![Rodrigo Constanzo's Cut Glove](https://img.youtube.com/vi/GA3rSCHklMQ/0.jpg)](https://www.youtube.com/watch?v=GA3rSCHklMQ)
 VIDEO: [Rodrigo Constanzo's Cut Glove](https://www.youtube.com/watch?v=GA3rSCHklMQ)
@@ -108,11 +107,10 @@ Max patches can be written, edited and run inside Ableton Live allowing the powe
 ##### GEN
 Max's GEN language allows us to control data right down to the sample level: much closer than previous and affording some *very* powerful audio manipulation.
 
-GEN also allows you to export its code as iOS, AU and VST plugins to use in other systems.
+GEN also allows you to export its code as iOS, AU and VST plugins to use in other systems (although this aspect is a _little_ underdeveloped).
 
 #### Living off a single-board computer
 With all its bells and whistles, Max is a pretty "heavy" environment, so if you wanted to run Max off a smaller single-board computer system (like a Raspberry Pi or BeagleBoard), you'd be better off looking at something like [Pure Data](https://puredata.info) which can run in its "Vanilla" mode on the Pi... there's some helpful info about this [on the Pd site.](https://puredata.info/docs/raspberry-pi)
-
 
 (See also: [Pure Data](https://puredata.info), [Reaktor](https://www.native-instruments.com/en/products/komplete/synths/reaktor-6/), [Axoloti](http://www.axoloti.com), [vvvv](https://vvvv.org))
 
@@ -178,7 +176,6 @@ If you wanted to run SuperCollider [for an installation performnce](http://sc3ho
 (See also: [ixi lang](http://www.ixi-audio.net/ixilang/), [Tidal](http://tidalcycles.org), [Chuck](http://chuck.cs.princeton.edu))
 
 
-
 ***************************************************************************
 ************************************************************************
 # 3. What can microcontrollers do?
@@ -208,7 +205,7 @@ VIDEO: [Robert A.A. Lowe + MIDI Sprout](https://www.youtube.com/watch?v=W9ypZAKh
 [![Leaf cutter John’s Light Music](https://img.youtube.com/vi/qTvE0NqpAiE/0.jpg)](https://www.youtube.com/watch?v=qTvE0NqpAiE)
 VIDEO: [Leaf cutter John’s Light Music](https://www.youtube.com/watch?v=qTvE0NqpAiE)
 
-##### ~~Interacting with~~ Electrocuting people ⚡️
+##### ~~Electrocuting~~ Interacting with people ⚡️
 [![FaltyDL - Straight & Arrow](https://img.youtube.com/vi/BREp7HYxJPw/0.jpg)](https://www.youtube.com/watch?v=BREp7HYxJPw)
 >FaltyDL - Straight & Arrow (_Hardcourage_, 2013)
 
@@ -221,6 +218,8 @@ Developing on the work by Japanese artist [Daito Manabe](http://www.daito.ws/en/
 >Peter Ablinger - A Letter from Schoenberg
 
 All of the above are simple ideas and 'relatively' simple technologies... can you think about developing similar concepts into a larger project? Does this raise more questions? Does this allow us to approach music in a different way?
+
+Music by [Johann Svensson](http://johansvensson.nu) and [Clara Iannotta](http://claraiannotta.com) also makes excellent use of blending 'mechanical' elements with acoustic instruments/human performers.
 
 ![Nebulae](http://www.schneidersladen.de/media/catalog/product/cache/1/image/400x400/040ec09b1e35df139433887a97daa66f/1/3/130354_front.jpg)![Nebulae-back](http://www.schneidersladen.de/media/catalog/product/cache/1/image/400x400/040ec09b1e35df139433887a97daa66f/1/3/130354_back.jpg)
 The [Qu-Bit Electronix *Nebulae*](http://www.qubitelectronix.com/s/Nebul_Manual_V1_1.pdf) is a Eurorack synth module which uses an Arduino and Raspberry Pi to run CSound and Pure Data patches in a modular synthesiser setup, using the Pi to run the audio and the microprocessor from an Arduino to crunch the controllers and translate the Control Voltage inputs.
@@ -239,8 +238,8 @@ What sort of thing can we change in our music?
 What can we make interactive, what is possible?
 ***
 
-##### A reminder: Hugill's 'DIGITAL MUSICIAN'
-A ‘digital musician’ should possess the following skills
+##### Andrew Hugill's 'DIGITAL MUSICIAN' _(Routledge, 2008)_
+Remember, a ‘digital musician’ should possess the following skills
 - **Aural awareness** (an ability to hear and listen both widely and accurately, linked to an understanding of how sound behaves in space and time)
 - **Cultural knowledge** (an understanding of one’s place within a local and global culture coupled with an ability to make critical judgements and a knowledge of recent cultural developments)
 - **Musical abilities** (the ability to make music in various ways – performance, improvisation, composition, etc. – using new technologies)
@@ -249,10 +248,10 @@ A ‘digital musician’ should possess the following skills
 ***
 
 ## Further reading
-- *Composing Interactive Music: Techniques and Ideas Using Max* ~ Todd Winkler (MIT Press, 2001)
+- ~*Composing Interactive Music: Techniques and Ideas Using Max* ~ Todd Winkler (MIT Press, 2001)~ _EDIT: this is rather out of date now...~
 - *Handmade Electronic Music: the art of hardware hacking* 2nd ed. ~ Nicolas Collins (Routledge, 2009)
 - *Programming Interactivity: a designer's guide to Processing, Arduino, and openFrameworks* 2nd ed. ~ Joshua Noble (O'Reilly, 2012)
-- *Electronic and Experimental Music: technology, music, culture* 5th ed. ~ Thom Holmes (Routledge, 2015)
+- *Electronic and Experimental Music: technology, music, culture* 5th ed. ~ Thom Holmes (Routledge, 2015) ❤️
 
 ## Other useful resources
 #### Useful Languages
@@ -281,7 +280,7 @@ A ‘digital musician’ should possess the following skills
 #### Books
 ##### Electronic/Computer Music History and Culture
 - Electronic and Computer Music ~ Peter Manning
-- Audio Culture: readings in modern music ~ Cristoph Cox ❤️
+- [Audio Culture: readings in modern music](https://www.bloomsbury.com/uk/audio-culture-revised-edition-9781501318368/) ~ Cristoph Cox ❤️ _A revised edition has been released for 2017!_
 - The Sound Studies Reader ~ Jonathan Sterne
 - Composing Electronic Music ~ Curtis Roads
 - Cambridge Companion to Electronic Music ~ Collins & d'Escriván
@@ -316,7 +315,4 @@ A ‘digital musician’ should possess the following skills
 - [New Interfaces for Musical Expression (NIME)](http://www.nime.org/archives/)
 - [International Computer Music Conference (ICMC)](http://www.computermusic.org/page/23/)
 - [International Conference on Live-Coding (ICLC)](http://iclc.livecodenetwork.org)
-***
-## For next session:
-There are no seminars in weeks 5–7.
-During this time you should review the assignment briefs and continue independent work on the Project Proposal and Literature Review, and the Semester 1 Project Portfolio. Module tutors are available for consultation during their advertised ‘office hours’ if required.
+
