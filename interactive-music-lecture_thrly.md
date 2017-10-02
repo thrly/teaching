@@ -21,7 +21,6 @@ ___
     - [Books](#books)
     - [Journals](#journal)
     - [International Conferences](#international-conferences)
-- [For Next Session](#for-next-session)
 
 ***
 
@@ -59,8 +58,10 @@ This is a pretty simplistic view of the possibilities of interaction in music.
 
 #### Laurie Spiegel's *Music Mouse*
 In 1985, composer and programmer [Laurie Spiegel](https://unseenworlds.bandcamp.com/album/the-expanding-universe) released [*Music Mouse*](http://retiary.org/ls/programs.html), an 'intelligent instrument' which turned the computer in an instrument anyone could play by moving the mouse across an onscreen grid.
+
 ![Music Mouse](http://retiary.org/ls/gifs_ls/mm_screen.gif)
-<iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1696851893/size=small/bgcol=ffffff/linkcol=0687f5/track=234393475/transparent=true/" seamless><a href="http://unseenworlds.bandcamp.com/album/the-expanding-universe">The Expanding Universe by Laurie Spiegel</a></iframe>
+
+[Laurie Spiegel's _The Expanding Universe_](https://unseenworlds.bandcamp.com/album/the-expanding-universe)
 
 The software generates music by manipulating its own subroutines based on the simple *interaction* of the user. *Music Mouse* isn't the 'birth' of interactive music (not by a long way), but it is a nice example of how we can think about programming interactivity in music.
 
@@ -90,10 +91,10 @@ Max has _**truely excellent tutorials, help and support systems**_ which make it
 #### Some interesting musical projects using Max
 
 [![Rodrigo Constanzo's Cut Glove](https://img.youtube.com/vi/GA3rSCHklMQ/0.jpg)](https://www.youtube.com/watch?v=GA3rSCHklMQ)
+
 VIDEO: [Rodrigo Constanzo's Cut Glove](https://www.youtube.com/watch?v=GA3rSCHklMQ)
 
-<iframe src="https://player.vimeo.com/video/32331721?color=FF7700&title=0&byline=0&portrait=0" width="500" height="275" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
+--NO IMAGE--
 VIDEO: [MONOME @ MOMA ~ Brian Crabtree and Kelli Cain's Monome controlling Max instruments](https://vimeo.com/32331721)
 
 [Sarah Angliss](http://www.sarahangliss.com/therobots) uses Max + Arduinos (w/ servo motors) to 'perform' with her custom built robots:
@@ -136,7 +137,7 @@ We can use SuperCollider to create:
 
 
 ### Live Coding
-<iframe src="https://player.vimeo.com/video/2433947" width="500" height="350" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+--NO IMAGE--
 
 > VIDEO: Andrew Sorensen emulating Keith Jarrett's [Sun Bear Concerts](https://www.youtube.com/watch?v=e7T6Z000SKw): [A Study in Keith](https://vimeo.com/2433947)
 
@@ -193,16 +194,21 @@ The Arduino (which is both a hardware board, a language/compiler, and an IDE (pr
 
 Imogen Heap developed 'Mi.Mu', a set of [wearable controllers](https://www.arduino.cc/en/Main/ArduinoBoardLilyPad) (in the form of gloves) to help shape her live performances. More comprehensive information on Heap's gloves [here.](http://www.imogenheap.co.uk/thegloves/)
 [![Imogen Heap’s Mi.Mu glove controllers](https://img.youtube.com/vi/JCeASAdiQ0A/0.jpg)](https://www.youtube.com/watch?v=JCeASAdiQ0A)
+
 VIDEO: [Imogen Heap’s glove controllers](https://www.youtube.com/watch?v=JCeASAdiQ0A)
 
 ##### Interacting with plants 🌱
 Similar technology was used to build the [MIDI Sprout](http://www.midisprout.com), a tool for translating the 'language' of plants into MIDI data. Here is [Robert Aiki Aubrey Lowe](https://www.instagram.com/kirlianauras/)'s (fka [Lichens](https://www.discogs.com/artist/376305-Lichens)) take on the technology.
+
 [![R.A.A.Lowe + MIDI Sprout](https://img.youtube.com/vi/W9ypZAKhRJo/0.jpg)](https://www.youtube.com/watch?v=W9ypZAKhRJo)
+
 VIDEO: [Robert A.A. Lowe + MIDI Sprout](https://www.youtube.com/watch?v=W9ypZAKhRJo)
 
 ##### Interacting with Light 🌞
 [Leafcutter John](http://leafcutterjohn.com) uses an Arduino with simple photoresistors (light sensors), combined with a Max patch to create light-sensitive algorithmic music:
+
 [![Leaf cutter John’s Light Music](https://img.youtube.com/vi/qTvE0NqpAiE/0.jpg)](https://www.youtube.com/watch?v=qTvE0NqpAiE)
+
 VIDEO: [Leaf cutter John’s Light Music](https://www.youtube.com/watch?v=qTvE0NqpAiE)
 
 ##### ~~Electrocuting~~ Interacting with people ⚡️
@@ -210,6 +216,7 @@ VIDEO: [Leaf cutter John’s Light Music](https://www.youtube.com/watch?v=qTvE0N
 >FaltyDL - Straight & Arrow (_Hardcourage_, 2013)
 
 Developing on the work by Japanese artist [Daito Manabe](http://www.daito.ws/en/#1) who you might know from his work attaching electrodes to people's faces...
+
 [![Daito Manabe - Electric Stimulus to Face](https://img.youtube.com/vi/CvmE4TZfeuo/0.jpg)](https://www.youtube.com/watch?v=CvmE4TZfeuo)
 >Daito Manabe - Electric Stimulus to Face
 
@@ -222,6 +229,7 @@ All of the above are simple ideas and 'relatively' simple technologies... can yo
 Music by [Johann Svensson](http://johansvensson.nu) and [Clara Iannotta](http://claraiannotta.com) also makes excellent use of blending 'mechanical' elements with acoustic instruments/human performers.
 
 ![Nebulae](http://www.schneidersladen.de/media/catalog/product/cache/1/image/400x400/040ec09b1e35df139433887a97daa66f/1/3/130354_front.jpg)![Nebulae-back](http://www.schneidersladen.de/media/catalog/product/cache/1/image/400x400/040ec09b1e35df139433887a97daa66f/1/3/130354_back.jpg)
+
 The [Qu-Bit Electronix *Nebulae*](http://www.qubitelectronix.com/s/Nebul_Manual_V1_1.pdf) is a Eurorack synth module which uses an Arduino and Raspberry Pi to run CSound and Pure Data patches in a modular synthesiser setup, using the Pi to run the audio and the microprocessor from an Arduino to crunch the controllers and translate the Control Voltage inputs.
 
 ***
