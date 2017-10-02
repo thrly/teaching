@@ -9,7 +9,7 @@ Using computer programming languages to create interactive music systems, and so
 
 ## Table of Contents
 - [Why program music?](#why-program-music?)
-    - [Your friendly neighbourhood Help-File](#your-friendly-neighbourhood-helpfile)
+    - [Read the ß∆$†∆®& manual](#Read-the-ß∆$†∆®&-manual)
 - [1. What can Max do?](#1-what-can-max-do)
 - [2. What can SuperCollider do?](#2-what-can-supercollider-do)
 - [3. What can Microcontrollers do?](#3-what-can-microcontrollers-do)
@@ -183,16 +183,17 @@ If you wanted to run SuperCollider [for an installation performnce](http://sc3ho
 What *is* a microcontroller? 💻 A computer minus a few bits (hard drive etc.) Generally, many of the same principles apply, just scaled down a bit. (For instance, there is RAM, just a lot less than you're used to).
 
 The most common and simple to use example is the Arduino:![Arduino UNO](https://www.arduino.cc/en/uploads/Guide/A000066_iso_both.jpg)
+
 (It was originally created as a rapid-prototyping tool for students without a background in electronics and programming!)
 
 The Arduino (which is both a hardware board, a language/compiler, and an IDE (programming environment, based on [Processing](https://processing.org))) can be programmed to accept a number of digital or analog inputs, and control a number of digital or analog outputs. Arduino lets us create physical controls to interact with, interactive environments that read data from the outside world, or control physical things from digital data, amongst many, many other possibilities.
 
 
 #### Interacting with people 👋
-[Marco Donnarumma](http://marcodonnarumma.com/works/xth-sense-biophysical-music/) uses electrode sensors to build his 'Xth Sense' instruments, creating a 'biophysical music'.
-<iframe src="https://player.vimeo.com/video/128386465" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[Marco Donnarumma](http://marcodonnarumma.com/works/xth-sense-biophysical-music/) uses electrode sensors to build his 'Xth Sense' instruments, creating a 'biophysical music'. [VIDEO](https://player.vimeo.com/video/128386465)
 
 Imogen Heap developed 'Mi.Mu', a set of [wearable controllers](https://www.arduino.cc/en/Main/ArduinoBoardLilyPad) (in the form of gloves) to help shape her live performances. More comprehensive information on Heap's gloves [here.](http://www.imogenheap.co.uk/thegloves/)
+
 [![Imogen Heap’s Mi.Mu glove controllers](https://img.youtube.com/vi/JCeASAdiQ0A/0.jpg)](https://www.youtube.com/watch?v=JCeASAdiQ0A)
 
 VIDEO: [Imogen Heap’s glove controllers](https://www.youtube.com/watch?v=JCeASAdiQ0A)
@@ -323,4 +324,3 @@ Remember, a ‘digital musician’ should possess the following skills
 - [New Interfaces for Musical Expression (NIME)](http://www.nime.org/archives/)
 - [International Computer Music Conference (ICMC)](http://www.computermusic.org/page/23/)
 - [International Conference on Live-Coding (ICLC)](http://iclc.livecodenetwork.org)
-
