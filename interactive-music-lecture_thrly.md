@@ -1,6 +1,6 @@
 ###### MUSS3640 Music Technology / MUSS5632M Electronic Computer Music
 # Programming (Interactive) Music
-last edited: 2 October 2017
+last edited: 17 October 2017
 [o.thurley@leeds.ac.uk](mailto:o.thurley@leeds.ac.uk)
 ### Summary:
 Using computer programming languages to create interactive music systems, and some reasons why you might want to...
@@ -8,10 +8,11 @@ Using computer programming languages to create interactive music systems, and so
 ***
 
 ## Table of Contents
-- [0. Why program music?](#0-why-program-music?)
+- [0. Why program music?](#0-why-program-music)
 - [1. What can Max do?](#1-what-can-max-do)
 - [2. What can SuperCollider do?](#2-what-can-supercollider-do)
 - [3. What can Microcontrollers do?](#3-what-can-microcontrollers-do)
+__
 - [Further Reading](#further-reading)
 - [Resources](#resources)
 
@@ -23,7 +24,7 @@ As we look at a few simple examples & ideas, think about how *you* could develop
 Be ready to discuss and ask questions as we go through.
 # 0. Why program music?
 #### Interaction as a *Conversation*
-A lecture/soliloquy is not interactive, it is a one-way transaction of information (me -> you). For interaction to take place, a sort of **feedback loop** needs to occur (me <--♻️--> you). (It is worth noting that this isn't necessarily a closed feedback loop that you might be used to in a 'squawking' microphone+speaker system.)
+A lecture or soliloquy is not interactive, it is a one-way transaction of information (me -> you). For interaction to take place, a sort of **feedback loop** needs to occur (me <--♻️--> you). (It is worth noting that this isn't necessarily a closed feedback loop that you might be used to in a 'squawking' microphone+speaker system.)
 
 For Joshua Noble, the feedback loop is the
 > process of an entity communicating with itself while checking with either an internal or external regulatory system'
