@@ -8,19 +8,12 @@ Using computer programming languages to create interactive music systems, and so
 ***
 
 ## Table of Contents
-- [Why program music?](#why-program-music?)
-    - [Read the ß∆$†∆®& manual](#Read-the-ß∆$†∆®&-manual)
+- [0. Why program music?](#0-why-program-music?)
 - [1. What can Max do?](#1-what-can-max-do)
 - [2. What can SuperCollider do?](#2-what-can-supercollider-do)
 - [3. What can Microcontrollers do?](#3-what-can-microcontrollers-do)
-___
 - [Further Reading](#further-reading)
 - [Resources](#resources)
-    - [Useful Languages](#useful-languages)
-    - [Websites](#websites)
-    - [Books](#books)
-    - [Journals](#journal)
-    - [International Conferences](#international-conferences)
 
 ***
 
@@ -34,10 +27,12 @@ A lecture/soliloquy is not interactive, it is a one-way transaction of informati
 
 For Joshua Noble, the feedback loop is the
 > process of an entity communicating with itself while checking with either an internal or external regulatory system'
+
 ~ Joshua Noble, *Programming Interactivity*, 3
 
 Sergi Jordà holds that
 >'Interaction' involves the existence of a mutual or reciprocal action or influence between two or more systems.
+
 ~ Sergi Jordà, 'Interactivity and live computer music' in *The Cambridge Companion to Electronic Music*, eds. Collins & d'Escrivan, 90
 
 ##### Computer Music is still _Music_
@@ -48,13 +43,14 @@ Jordà goes on to say that in recorded music, music seemed to lose some of its i
 
 Todd Winkler gives an example of possible components of an interactive music system:
 >1. Human input, instruments: Human activity is translated into digital information and sent to the computer
->2. Computer listening, performance analysis: The computer receives the human input and analyses the performance information for timing pitch, dynamincs, or other musical characteristics.
+>2. Computer listening, performance analysis: The computer receives the human input and analyses the performance information for timing pitch, dynamics, or other musical characteristics.
 >3. Interpretation: the software interprets the computer listener information, generating data that will influence the composition.
 >4. Computer composition: computer processes, responsible for all aspects of the computer generated music, are based on the results of the computer's interpretation of the performance.
 >5. Sound generation and output, performance: The computer plays the music, using sounds created internally, or by sending musical information to devices that generate sound.
-~ Todd Winkler, '*Composing Interactive Music*', 6
 
-This is a pretty simplistic view of the possibilities of interaction in music.
+~ Todd Winkler, '*Composing Interactive Music*', p.6
+
+This is a pretty simplistic view of the possibilities of interaction in music, but it provides a starting point for us to develop upon.
 
 #### Laurie Spiegel's *Music Mouse*
 In 1985, composer and programmer [Laurie Spiegel](https://unseenworlds.bandcamp.com/album/the-expanding-universe) released [*Music Mouse*](http://retiary.org/ls/programs.html), an 'intelligent instrument' which turned the computer in an instrument anyone could play by moving the mouse across an onscreen grid.
@@ -77,7 +73,7 @@ All of the following technologies come with excellent documentation, support net
 
 ***
 # 1. What can Max do?
-[Max](https://cycling74.com) (fka 'Max/MSP + Jitter')is a ubiquitous, patchable 'visual' programming language. It can do more things than is practical to mention here, but some of the things it does BEST are:
+[Max](https://cycling74.com) (fka 'Max/MSP + Jitter') is a ubiquitous, patchable 'visual' programming language. It can do more things than is practical to mention here, but some of the things it does BEST are:
 - MIDI data (Max)
 - Audio (MSP)
 - Visuals (Jitter, OpenGL, etc.)
@@ -86,7 +82,7 @@ All of the following technologies come with excellent documentation, support net
 
 Max's visual architecture allows a very different workflow and method of thinking from more traditional text-based programming languages. This has advantages and disadvantages (we can think linearly and non-linearly, but sometimes dealing with messy wires is more confusing than neatly blocked script).
 
-Max has _**truely excellent tutorials, help and support systems**_ which make it a pretty friendly tool to use.
+Max has _**truly excellent tutorials, help and support systems**_ which make it a pretty friendly tool to use.
 
 #### Some interesting musical projects using Max
 
@@ -123,7 +119,7 @@ With all its bells and whistles, Max is a pretty "heavy" environment, so if you 
 SuperCollider,
 > allows one to represent musical concepts as objects, to transform them via functions or methods, to compose transformations into higher-level building blocks, and to design interactions for manipulating music in real-time, from the top level structure of the piece down to the level of the waveform.
 
->— James McCartney, 'Foreword' in *[The SuperCollider Book](https://www.amazon.co.uk/SuperCollider-Book-Scott-Wilson/dp/0262232693)*, eds. Wilson, Cottle, Collins (MIT, 2011)
+~ James McCartney, 'Foreword' in *[The SuperCollider Book](https://www.amazon.co.uk/SuperCollider-Book-Scott-Wilson/dp/0262232693)*, eds. Wilson, Cottle, Collins (MIT, 2011)
 
 We can use SuperCollider to create:
 -   real-time interactions
@@ -143,6 +139,7 @@ We can use SuperCollider to create:
 
 #### TOPLAP.org
 Selected highlights from the [manifesto of live coding](http://toplap.org/wiki/ManifestoDraft) from [TOPLAP](http://toplap.org):
+
 > We demand:
 - Give us access to the performer's mind, to the whole human instrument.
 - Obscurantism is dangerous. Show us your screens.
@@ -257,7 +254,7 @@ Remember, a ‘digital musician’ should possess the following skills
 ***
 
 ## Further reading
-- ~*Composing Interactive Music: Techniques and Ideas Using Max* ~ Todd Winkler (MIT Press, 2001)~ _EDIT: this is rather out of date now...~
+- ~*Composing Interactive Music: Techniques and Ideas Using Max* Todd Winkler (MIT Press, 2001)~ _EDIT: this is rather out of date now...
 - *Handmade Electronic Music: the art of hardware hacking* 2nd ed. ~ Nicolas Collins (Routledge, 2009)
 - *Programming Interactivity: a designer's guide to Processing, Arduino, and openFrameworks* 2nd ed. ~ Joshua Noble (O'Reilly, 2012)
 - *Electronic and Experimental Music: technology, music, culture* 5th ed. ~ Thom Holmes (Routledge, 2015) ❤️
@@ -289,7 +286,7 @@ Remember, a ‘digital musician’ should possess the following skills
 #### Books
 ##### Electronic/Computer Music History and Culture
 - Electronic and Computer Music ~ Peter Manning
-- [Audio Culture: readings in modern music](https://www.bloomsbury.com/uk/audio-culture-revised-edition-9781501318368/) ~ Cristoph Cox ❤️ _A revised edition has been released for 2017!_
+- [Audio Culture: readings in modern music](https://www.bloomsbury.com/uk/audio-culture-revised-edition-9781501318368/) ~ Cristoph Cox & Daniel Warner ❤️ _A revised edition has been released for 2017!_
 - The Sound Studies Reader ~ Jonathan Sterne
 - Composing Electronic Music ~ Curtis Roads
 - Cambridge Companion to Electronic Music ~ Collins & d'Escriván
