@@ -12,6 +12,7 @@ Using computer programming languages to create interactive music systems, and so
 - [1. What can Max do?](#1-what-can-max-do)
 - [2. What can SuperCollider do?](#2-what-can-supercollider-do)
 - [3. What can Microcontrollers do?](#3-what-can-microcontrollers-do)
+
 __
 - [Further Reading](#further-reading)
 - [Resources](#resources)
